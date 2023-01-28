@@ -1,0 +1,219 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap');
+
+.Main {
+
+    background: radial-gradient(circle, rgba(131,58,180,1) 1%, rgba(179,29,253,1) 33%, rgba(252,176,69,1) 100%);
+
+animation: PulseBackground 1s ease-in-out alternate infinite ;
+width: 100vw;
+height: 100vh;
+
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+}
+
+/* create and rounder box for the login form */
+.Container{
+    
+    width: 25rem;
+    height: auto;
+    background-color:rgba(131,58,180,1);
+
+    border-radius: .625rem;
+    box-shadow: 0 0 .625rem 0 rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 1.25rem;
+    box-sizing: border-box;
+
+}
+
+.Container h1{
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 1.25rem;
+    width: 100%;
+    text-align: center;
+}
+
+.Form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.Form label {
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: .625rem;
+    width: 100%;
+}
+
+.FormGroup{
+
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-bottom: 1.25rem;
+}
+
+.FormGroup input{
+
+    width: 100%;
+    height: 2.5rem;
+    border-radius: .625rem;
+    border: none;
+    padding: 0 1rem;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #000;
+    background-color: #fff;
+    margin-bottom: .625rem;
+    box-shadow: 0 0 .625rem 0 rgba(197, 197, 197, 0.5);
+}
+
+.FormGroup input::placeholder{
+    color: #000;
+}
+
+.FormGroup input:focus{
+    outline: none;
+}
+
+.Checklist {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 1.25rem;
+}
+
+.Checklist input{
+    width: 1.25rem;
+    height: 1.25rem;
+    border-radius: .625rem;
+    border: none;
+    margin-right: .625rem;
+}
+
+.Checklist label{
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+.ButtonGroup{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1.25rem;
+    gap: .625rem;
+}
+
+.ButtonGroup button{
+    width: 100%;
+    height: 2.5rem;
+    border-radius: .625rem;
+    border: none;
+    background-color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #000;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+    box-shadow: 0 0 .625rem 0 rgba(197, 197, 197, 0.5);
+}
+
+.ButtonGroup button:hover{
+    background-color: rgb(96, 50, 168);
+    box-shadow: 0 0 .625rem 0 rgba(96, 50, 168, 0.5);
+    color: #fff;
+}
+
+
+.IconHeader {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 1.25rem;
+}
+
+.IconHeader h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 0;
+    margin-right: .625rem;
+}
+
+.Icon{
+    width: 2.9rem;
+    height: 2.9rem;
+    padding: .125rem ;
+    border-radius: 50%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+ 
+}
+
+.Icon:hover{
+ cursor: pointer;
+
+
+}
+.IconList {
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    gap: .625rem;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.IconList svg{
+    width: 1.9rem;
+    height: 1.9rem;
+    padding: .125rem ;
+    border-radius: 50%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+ 
+}
+
